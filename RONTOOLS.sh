@@ -166,7 +166,10 @@ if [ $bro = 4 ] || [ $bro = 4 ]
 then
 clear
 figlet "Mr.R0N1Z" | lolcat
-pkg install git
+pkg install git -y
+pkg install python2 -y
+clear
+cd
 git clone https://github.com/Mr-R0N1Z/phoenix_ddos
 cd phoenix_ddos
 sh phoenix_ddos.sh
