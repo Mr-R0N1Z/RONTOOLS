@@ -92,7 +92,7 @@ echo $pu [2] Deface [Tebas_Index]
 sleep 0.2
 echo $me [3] Troll_Project [HackBae]
 sleep 0.2
-echo $pu [4] Phoenix_DDoS
+echo $pu [4] Mempercepat Koneksi
 sleep 0.2
 echo $me [5] Browser [Termux]
 sleep 0.2
@@ -167,12 +167,9 @@ then
 clear
 figlet "Mr.R0N1Z" | lolcat
 pkg install git -y
-pkg install python2 -y
 clear
-cd
-git clone https://github.com/Mr-R0N1Z/phoenix_ddos
-cd phoenix_ddos
-sh phoenix_ddos.sh
+figlet "Koneksi" | lolcat
+ping 8.8.8.8
 fi
 
 if [ $bro = 5 ] || [ $bro = 5 ]
