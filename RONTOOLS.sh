@@ -66,6 +66,10 @@ pkg install tsu -y
 apt install tsu
 sleep 0.1
 clear
+pkg install ruby -y
+apt install ruby
+sleep 0.1
+clear
 gem install lolcat
 sleep 2
 clear
