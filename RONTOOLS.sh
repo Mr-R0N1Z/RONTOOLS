@@ -129,6 +129,11 @@ sleep 0.2
 echo $me [19] Mata² [HackBae]
 sleep 0.2
 echo $pu [20] LITESCRIPT [Script_Deface]
+sleep 0.2
+echo $me [21] Admin Finder [MrCakil]
+sleep 0.2
+echo $pu [22] InstaBot [Followers]
+sleep 0.2
 echo "[0] Info Tools ini" | lolcat
 sleep 0.2
 echo "Pilih Angka Di Atas" | lolcat
@@ -154,6 +159,7 @@ clear
 figlet "Mr.R0N1Z" | lolcat
 pkg install git
 git clone https://github.com/Mr-R0N1Z/deface
+cd deface
 sh bum.sh
 fi
 
@@ -339,6 +345,29 @@ ls
 python2 LITESCRIPT.py
 fi
 
+if [ $bro = 21 ] || [ $bro = 21 ]
+then
+clear
+pkg install git -y
+git clone https://github.com/mrcakil/admin_finder
+cd admin_finder
+pkg install php
+sleep 0.1
+clear
+php adfin.php
+fi
+
+if [ $bro = 22 ] || [ $bro = 22 ]
+then
+clear
+pkg install git -y
+git clone https://github.com/instagrambot/instabot
+cd instabot
+pip install -U instabot
+cd examples
+mv multi_script_CLI.py main.py
+python2 main.py
+fi
 
 if [ $bro = 0 ] || [ $bro = 1 ]
 then
